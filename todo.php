@@ -15,6 +15,10 @@ require 'db_connect.php';
 <body>
     
     <img src="image/space.jpg">
+
+    <div class="back-button">
+        <button onclick="window.location.href='dashboard.php'">Back to Dashboard</button>
+    </div>
     
     <div class="main-section">
         <h1>ToDo-List</h1>
@@ -53,7 +57,7 @@ require 'db_connect.php';
                         <h2><?php echo $todo['title'] ?></h2>
                     <?php } ?>
                     <br>
-                    <small>created <?php echo $todo['date_time'] ?></small>
+                    <small>created <?php echo $todo['date'] ?></small>
                 </div>
             <?php } ?>
         </div>

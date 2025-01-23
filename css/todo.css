@@ -10,6 +10,10 @@ body {
     margin: 0;
     position: relative;
   }
+
+  html{
+    scroll-behavior: smooth;
+  }
   
   * {
     padding: 0px;
@@ -157,4 +161,27 @@ h1{
     font-size: 16px;
     text-align: center;
     color: #e6e5e7;
+}
+
+.back-button{
+    position: absolute; 
+    top: 20px;
+    right: 20px;
+}
+
+.back-button button{
+    background-color: #7e37fc; 
+    color: white;             
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 14px;
+    font-family: 'Quicksand', sans-serif;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s ease;
+}
+
+.back-button button:hover{
+    background-color: #5a1abf;
 }
