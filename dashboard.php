@@ -17,8 +17,8 @@
         <h1>ToDo-List</h1>
         <?php
             session_start();
-            if(isset($_SESSION['userName'])){
-                echo "<h3>Welcome, " . $_SESSION['userName'] . "!</h3>";
+            if(isset($_SESSION['username'])){
+                echo "<h3>Welcome, " . $_SESSION['username'] . "!</h3>";
             } else{
                 echo "<h3>Welcome, Guest!</h3>";
             }
