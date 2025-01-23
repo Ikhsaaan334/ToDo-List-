@@ -20,7 +20,8 @@
             if(isset($_SESSION['username'])){
                 echo "<h3>Welcome, " . $_SESSION['username'] . "!</h3>";
             } else{
-                echo "<h3>Welcome, Guest!</h3>";
+                header("Location: login.php");
+                exit();
             }
         ?>
         <button onclick="window.location.href='todo.php'">Go to ToDo-List App</button>

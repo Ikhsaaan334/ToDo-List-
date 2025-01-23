@@ -96,9 +96,7 @@ if($_SERVER['REQUEST_METHOD'] === 'POST'){
 
 
         <p>Already have an account?
-            <a href="login.php" style="text-decoration: none;">
-                Log in
-            </a>
+            <a href="login.php" style="text-decoration: none;">Log in</a>
         </p>
 
     </div>
